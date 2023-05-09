@@ -5,7 +5,18 @@ package binarySearchTrees;
  * Solution: Traverse to the leaf node where new node can fit and then attach to the
  * leaf node
  */
-
+class Node {	
+	int data;
+	Node left;
+	Node right;
+	public Node(int data) {
+		this.data= data;
+	}
+	
+	public String toString() {
+		return data+" ";
+	}
+}
 
 public class InsertNode {
 
